@@ -1,0 +1,341 @@
+.booking{
+    margin-left: 90px;
+}
+
+.navbar-brand{
+    margin-top: 28px;
+    margin-bottom: 60px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.contact h5{
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.emailno{
+    margin-bottom: 10px;
+    padding-left: 15px;
+    width: 490px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 0.5px solid #8B8B8B;
+    border-radius: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8B8B8B;
+
+
+}
+
+.form-check-input{
+    width: 18px;
+    height: 18px;
+    background: #D9D9D9;
+    border: 0.3px solid #000000;
+    border-radius: 4px;
+}
+
+.form-check-label{
+    margin-left: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+
+.contact{
+    margin-bottom: 40px;
+}
+
+.address h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.country{
+    padding-left: 10px;
+    width: 380px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 0.5px solid #8B8B8B;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.Province{
+    padding-left: 10px;
+    width: 280px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 0.5px solid #8B8B8B;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.postal{
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 230px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 0.5px solid #8B8B8B;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.kecamatan{
+    width: 520px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 0.5px solid #8B8B8B;
+    border-radius: 6px;
+    padding-top: 12px;
+    padding-left: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #8B8B8B;
+}
+
+.city {
+    width: 520px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 0.5px solid #8B8B8B;
+    border-radius: 6px;
+    padding-top: 12px;
+    padding-left: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #8B8B8B;
+}
+
+.name{
+    width: 238px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 0.5px solid #8B8B8B;
+    border-radius: 5px;
+
+    font-family: 'Poppins';
+    padding-left: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8B8B8B;
+
+}
+
+.payment {
+    margin-top: 30px;
+}
+
+.payment h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.pay{
+    width: 268px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 0.5px solid #8B8B8B;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.back{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration-line: underline;
+
+    color: #8B8B8B;
+}
+
+.btn-order{
+    margin-right: 60px;
+    width: 149px;
+    height: 42px;
+    background: #AF5656;
+    border-radius: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.book{
+    padding-left: 84px !important;
+    padding-top: 120px;
+    background: #EBE2DB !important;
+}
+
+.photo{
+    margin-top: -80px;
+}
+
+.product-brand{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.product-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+}
+
+.varian{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #767676;
+}
+
+.product-price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+
+.grs{
+    margin-left: -5px;
+    width: 540px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.discont{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.discount{
+    width: 297px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #D2C6BC;
+    border-radius: 4px;
+    padding-left: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #B9B9B9;
+
+}
+
+.btn-apply{
+    margin-left: 30px;
+    width: 119px;
+    height: 42px;
+    background: #D4B2A8;
+    border-radius: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+.fee{
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.fet{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #828282;
+
+}
+
+.th{
+    margin-top: -60px;
+    margin-right: 60px;
+}
+
+.ttl{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.httl{
+    margin-right: 60px;
+    margin-top: -22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+
+}

@@ -1,0 +1,105 @@
+body{
+    background: #EBE2DB;
+}
+
+.verification{
+    margin-top: 60px;
+    width: 665px;
+    height: 730px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.brand-ce{
+    margin-bottom: 18px;
+    padding-top: 50px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.info{
+    margin-top: 29px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.info span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #000000;
+}
+
+.form-inline{
+    margin-top: 32px;
+    margin-left: 217px;
+}
+
+.form-inline input{
+    width: 45px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.resend{
+    margin-top: 44px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.resend a{
+    text-decoration-line: underline;
+    color: #346886;
+}
+
+.btn-submit{
+    margin-top: 29px;
+    width: 230px;
+    height: 46px;
+    background: #A38F86;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.btn-cancel{
+    margin-top: 22px;
+    box-sizing: border-box;
+    width: 230px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 2px solid #A38F86;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+
+    color: #A38F86;
+}

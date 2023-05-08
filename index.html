@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontend/libraries/bootstraps/css/bootstrap.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="frontend/style/main.css">
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Ce'Shop</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Ce'Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a href="detail.html" class="nav-link">Products</a>
+          </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li>
+                <form class="search nav-link-search">
+                    <input type="text" id="text" placeholder="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </li>
+            <li class="nav-item-cart">
+                <a href="#" class="nav-link ml-3"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+            <li class="nav-item-user">
+                <a href="#" class="nav-link ml-3"><i class="fas fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- tutup nav -->
+
+    <!-- hero section -->
+    <section class="hero-section">
+      <img class="bg-section" src="frontend/img/section-img.svg" role="banner">
+      <div class="section-isi">
+        <p class="section-word">Keep Looking Stylish<br><span class="section-p">Start with our feet</span></p> <br>
+        <a href="detail.html" role="button">
+          <button type="button" class="btn btn-primary">Shop now</button>
+        </a>
+      </div>
+    </section>
+    <!-- tutup hero section -->
+
+    <br>
+
+    <!-- Featured Product -->
+    <section class="featured-brands">
+      <h5>Featured Brands</h5>
+      <center class="Brands">
+        <a href="#" role="button">
+          <img src="frontend/img/Nike.png">
+        </a>
+        <a href="#" role="button">
+          <img src="frontend/img/Vans.png" class="ml-lg-5">
+        </a>
+        <a href="#" role="button">
+          <img src="frontend/img/Adidas.png" class="ml-lg-5">
+        </a>
+        <br>
+        <a href="#" role="button">
+          <img src="frontend/img/Converse.png" class="mt-5">
+        </a>
+        <a href="#" role="button">
+          <img src="frontend/img/Reebok.png" class="ml-lg-5 mt-5">
+        </a>
+        <a href="#" role="button">
+          <img src="frontend/img/Asics.png" class="ml-lg-5 mt-5">
+        </a>
+      </center>
+    </section>
+    <!-- Tutup Featured Product -->
+
+    <!-- Best Seller -->
+    <section class="Best-Seller">
+      <center>
+        <h5 class="headbest">Best Seller</h5>
+        <br>
+      </center>
+      <div class="form-row compnent-product">
+        <div class="col-3">
+          <div class="product">
+            <div class="product-img">
+              <img src="frontend/img/bs1.png">
+            </div>
+            <div class="product-brand">Converse</div>
+            <a href="#">
+              <div class="product-name">Chuck taylor 70’s - Hi</div>
+            </a>
+            <div class="product-price">Rp 769.300</div>
+            <div class="discount">Rp 1.099.000</div>
+          </div>
+        </div>
+        <div class="col-3 ">
+          <div class="product">
+            <div class="product-img">
+              <img src="frontend/img/bs2.png">
+            </div>
+            <div class="product-brand">Vans</div>
+            <a href="">
+              <div class="product-name">UA Old School</div>
+            </a>
+            <div class="product-price">Rp 769.300</div>
+            <div class="discount">Rp 1.099.000</div>
+          </div>
+        </div>
+        <div class="col-3 ">
+          <div class="product">
+            <div class="product-img">
+              <img src="frontend/img/bs3.png">
+            </div>
+            <div class="product-brand">Nike</div>
+            <a href="detail.html">
+              <div class="product-name">Air force 1 ‘07</div>
+            </a>
+            <div class="product-price">Rp 1.549.000</div>
+          </div>
+        </div>
+        <div class="col-3 ">
+          <div class="product">
+            <div class="product-img">
+              <img src="frontend/img/bs4.png">
+            </div>
+            <div class="product-brand">Nike</div>
+            <a href="#">
+              <div class="product-name">Af1 Shadows shoes</div>
+            </a>
+            <div class="product-price">Rp 1.889.100</div>
+            <div class="discount">Rp 2.099.000</div>
+          </div>
+        </div>
+      </div>
+      <center>
+        <a href="#" role="button">
+          <button type="button" class="btn btn-view">View All Product</button>
+        </a>
+      </center>
+    </section>
+    <!-- tutup Best Seller -->
+
+    <!-- categori -->
+    <div class="women">
+      <img src="frontend/img/women.svg">
+      <a href="#" role="button">
+        <button type="button" class="btn btn-women">Discover now</button>
+      </a>
+    </div>
+    <div class="men">
+      <img src="frontend/img/men.svg">
+      <a href="#" role="button">
+        <button type="button" class="btn btn-men">Discover now</button>
+      </a>
+    </div>
+    <!-- tutup categori -->
+    <br>
+
+    <!-- footer -->
+    <footer>
+      <div class="form-row">
+        <div class="col-4">
+          <h5 class="footer-item">Ce'Shop</h5>
+          <p class="footer-link">Our product are the perfect blend of function and <br> style, giving you the technological performance, <br> you need in the style you want. Our partners <br> around the world realizing this goal with a high <br> level of skill and creativity.</p>
+        </div>
+        <div class="col-2 ml-4">
+          <h5 class="footer-item">About</h5>
+          <a href="#" class="footer-link">About us</a> <br>
+          <a href="#" class="footer-link">Privacy Policy</a> <br>
+          <a href="#" class="footer-link">Terms & Condition</a> <br>
+          <a href="#" class="footer-link">User Agreement</a> <br>
+        </div>
+        <div class="col-2 ml-4">
+          <h5 class="footer-item">Store</h5>
+          <a href="#" class="footer-link">Size chart</a> <br>
+          <a href="#" class="footer-link">Return Policy</a> <br>
+          <a href="#" class="footer-link">Contact Us</a> <br>
+          <a href="#" class="footer-link">How to order</a> <br>
+        </div>
+        <div class="col-3">
+          <p class="footer-subs">Want to get PROMO CODE? <br> 
+            Register your email here </p>
+          <input type="email" placeholder="Enter your email address" class="subscribe">
+          <br>
+          <a href="#" role="button">
+            <button type="button" class="btn btn-subs mt-2">Suscribe</button>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <center class="copyright">
+      <h5>Copyright © 2023 Ce’shop. All Right Reserved </h5>
+    </center>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/bootstraps/js/bootstrap.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/02c6cec07a.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>

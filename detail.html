@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontend/libraries/bootstraps/css/bootstrap.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="frontend/style/detail.css">
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Ce'Shop</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Ce'Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a href="detail.html" class="nav-link active">Products</a>
+          </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li>
+                <form class="search nav-link-search">
+                    <input type="text" id="text" placeholder="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </li>
+            <li class="nav-item-cart">
+                <a href="#" class="nav-link ml-3"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+            <li class="nav-item-user">
+                <a href="#" class="nav-link ml-3"><i class="fas fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- tutup nav -->
+
+    <!-- breadcrumb -->
+    <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="#">Home</a>
+        <a class="breadcrumb-item" href="#">Best Seller</a>
+        <span class="breadcrumb-item active">Nike Air force 1 ‘07</span>
+    </nav>
+    <!-- tutup breadcrumb -->
+
+    <!-- detail produk -->
+    <section class="detail product">
+        <div class="form-row">
+            <div class="col-1">
+                <a href="#">
+                    <img src="frontend/img/dp1.png" class="dp-active">
+                </a>
+                <a href="#">
+                    <img src="frontend/img/dp2.png" class="dp mt-4">
+                </a>
+                <a href="#">
+                    <img src="frontend/img/dp3.png" class="dp mt-4">
+                </a>
+                <a href="#">
+                    <img src="frontend/img/dp4.png" class="dp mt-4">
+                </a>
+            </div>
+            <div class="col-5 dp-lg">
+                <img src="frontend/img/dp.png">
+            </div>
+            <div class="col-5">
+                <h5 class="detail-brand">Nike</h5>
+                <p class="detail-name">Air force 1 ‘07 | <span>
+                    <i class="fas fa-star" style="color: #ffe894;"></i> 
+                    <i class="fas fa-star" style="color: #ffe894;"></i> 
+                    <i class="fas fa-star" style="color: #ffe894;"></i> 
+                    <i class="fas fa-star" style="color: #ffe894;"></i> 
+                    <i class="fas fa-star mr-3" style="color: #ffe894;"></i> 
+                    5.0 (195)</span></p>
+                <div class="detail-price">Rp 1.549.000</div>
+                <div class="color">
+                    Color <span>White/Game Royal/White</span>
+                    <br>
+                    <img src="frontend/img/color.png" >
+                </div>
+                <div class="size">
+                    Size <span>Size Chart</span> <br>
+                    <label for="size" class="label-active">39</label>
+                    <label for="size" class="label-sz ml-3">40</label>
+                    <label for="size" class="label-sz ml-3">41</label>
+                    <label for="size" class="label-sz ml-3">42</label>
+                    <label for="size" class="label-sz ml-3">42,5</label><br>
+                    <label for="size" class="label-sz">43</label>
+                    <label for="size" class="label-sz ml-3">44</label>
+                </div>
+                <div class="return">
+                    <img src="frontend/img/retur.png"> 30 days <span>free</span> return/exchange
+                </div>
+                <div class="original">
+                    <img src="frontend/img/ori.png"> 100% Original 
+                    <img src="frontend/img/COD.png" class="ml-4 mr-2"> Cash On Delivery
+                </div>
+                <a href="booking.html" role="button">
+                    <button type="button" class="btn btn-order">Order now</button>
+                </a>
+                <br>
+                <a href="#" role="button">
+                    <button type="button" class="btn btn-cart">Add to cart</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- tutup detail produk -->
+
+    <hr class="grs">
+
+    <!-- description -->
+    <section class="rinci">
+        <div class="description">
+            <h5>Description</h5>
+            <p>#airforce1 Best for: Lifestyle/Nike Air Force 1 '07 Men's Shoes LEGENDARY STYLE. The radiance lives on in the Nike Air Force 1 ’07, the b-ball <br> icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine. <br> Textured, pebbly leather with classic blue and fresh white add heritage style, durability and support. Originally designed for <br> performance hoops, Nike Air cushioning adds lightweight, all-day comfort. The low-cut silhouette adds a clean, streamlined look. <br> Padded, low-cut collar feels soft and comfortable. </p>
+            <br>
+            Care Instructions: Store in box with silica gel <br>Colors: White/Game Royal/White <br>SKU: A3D01SH76F1B3DGS
+        </div>
+        <div class="details">
+            <h5>Details</h5>
+            <p>- Casual sneakers accented with contrast swoosh logo for a classic sporty look <br>
+                - White and blue color combination <br>
+                - Leather upper with pebbly textured accents <br>
+                - Textile insole with Nike Air Cushioning for a lightweight feel and all-day comfort <br>
+                - Rubber outsole <br>
+                - Front strap <br>
+                - Round toe</p>
+            <span>See size details before purchasing</span>
+        </div>
+    </section>
+    <!-- tutup description -->
+
+    <hr class="grs">
+
+    <!-- Recommended -->
+
+    <section class="recommend">
+        <h5>Recommended for you</h5>
+        <br>
+        <div class="form-row component-product">
+            <div class="col-3">
+              <div class="product">
+                <div class="product-img">
+                  <img src="frontend/img/ry1.png">
+                </div>
+                <div class="product-brand">Nike</div>
+                <a href="#">
+                  <div class="product-name">Court vision Mid next..</div>
+                </a>
+                <div class="product-price">Rp 1.099.000</div>
+              </div>
+            </div>
+            <div class="col-3 ">
+              <div class="product">
+                <div class="product-img">
+                  <img src="frontend/img/ry2.png">
+                </div>
+                <div class="product-brand">Puma</div>
+                <a href="">
+                  <div class="product-name">Gravitation trainers</div>
+                </a>
+                <div class="product-price">Rp 1.044.050</div>
+                <div class="discount">Rp 1.099.000</div>
+              </div>
+            </div>
+            <div class="col-3 ">
+              <div class="product">
+                <div class="product-img">
+                  <img src="frontend/img/ry3.png">
+                </div>
+                <div class="product-brand">Nike</div>
+                <a href="detail.html">
+                  <div class="product-name">Air max 90 SE Men’s....</div>
+                </a>
+                <div class="product-price">Rp 2.199.000</div>
+              </div>
+            </div>
+            <div class="col-3 ">
+              <div class="product">
+                <div class="product-img">
+                  <img src="frontend/img/ry4.png">
+                </div>
+                <div class="product-brand">New Balance</div>
+                <a href="#">
+                  <div class="product-name">574 Classic lifestyle.....</div>
+                </a>
+                <div class="product-price">Rp 1.699.100</div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutup Recommended -->
+
+    <!-- footer -->
+    <footer>
+      <div class="form-row">
+        <div class="col-4">
+          <h5 class="footer-item">Ce'Shop</h5>
+          <p class="footer-link">Our product are the perfect blend of function and <br> style, giving you the technological performance, <br> you need in the style you want. Our partners <br> around the world realizing this goal with a high <br> level of skill and creativity.</p>
+        </div>
+        <div class="col-2 ml-4">
+          <h5 class="footer-item">About</h5>
+          <a href="#" class="footer-link">About us</a> <br>
+          <a href="#" class="footer-link">Privacy Policy</a> <br>
+          <a href="#" class="footer-link">Terms & Condition</a> <br>
+          <a href="#" class="footer-link">User Agreement</a> <br>
+        </div>
+        <div class="col-2 ml-4">
+          <h5 class="footer-item">Store</h5>
+          <a href="#" class="footer-link">Size chart</a> <br>
+          <a href="#" class="footer-link">Return Policy</a> <br>
+          <a href="#" class="footer-link">Contact Us</a> <br>
+          <a href="#" class="footer-link">How to order</a> <br>
+        </div>
+        <div class="col-3">
+          <p class="footer-subs">Want to get PROMO CODE? <br> 
+            Register your email here </p>
+          <input type="email" placeholder="Enter your email address" class="subscribe">
+          <br>
+          <a href="#" role="button">
+            <button type="button" class="btn btn-subs mt-2">Suscribe</button>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <center class="copyright">
+      <h5>Copyright © 2023 Ce’shop. All Right Reserved </h5>
+    </center>
+    <!-- tutup footer -->
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/bootstraps/js/bootstrap.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/02c6cec07a.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>

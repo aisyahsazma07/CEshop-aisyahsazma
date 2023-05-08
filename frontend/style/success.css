@@ -1,0 +1,80 @@
+body{
+    background: #EBE2DB;
+}
+
+.verification{
+    margin-top: 60px;
+    width: 665px;
+    height: 700px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.brand-ce{
+    margin-bottom: 22px;
+    padding-top: 50px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.info{
+    margin-top: 29px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000000;
+    text-align: center;
+}
+
+
+.btn-submit{
+    margin-top: 29px;
+    width: 230px;
+    height: 46px;
+    background: #A38F86;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.btn-cancel{
+    margin-top: 22px;
+    box-sizing: border-box;
+    width: 230px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 2px solid #A38F86;
+    border-radius: 6px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+
+    color: #A38F86;
+}
+
+.track{
+    margin-top: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+
+    color: #8B8B8B;
+}

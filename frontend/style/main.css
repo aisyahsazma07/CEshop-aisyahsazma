@@ -1,0 +1,389 @@
+/* navbar */
+
+.navbar {
+    background: #EBE2DB;
+}
+
+.navbar-brand{
+    margin-left: 90px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+
+}
+
+.nav-link.active{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+
+}
+
+.nav-item{
+    margin-left: 8px;
+}
+
+.nav-link{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.nav-link-search{
+    margin-top: 5px;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+.nav-link-search input{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #9CB09A;
+    border: none;
+    outline: none;
+    flex: 1;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #161616;
+}
+
+.fa-solid {
+    background-color: #FFFFFF;
+    padding: 5px 4px;
+    align-self: center;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.nav-link-cart img{
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+.nav-link-user img{
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-right: 55px;
+}
+
+.nav-item a:hover{
+    color: #366A0C;
+}
+
+.navbar-brand:hover{
+    color: #FFFFFF;
+}
+
+.nav-item-user{
+    margin-right: 80px;
+}
+/* Tutup navbar */
+
+/* hero section */
+
+.bg-section{
+    position: relative;
+
+}
+
+.section-isi{
+    margin-top: -420px;
+    margin-left: 940px;
+}
+
+.section-word{
+    position: absolute;
+
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.section-p{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.btn-primary{
+    position: absolute;
+    outline: none;
+    border: none;
+    margin-left: 140px;
+    margin-top: 110px;
+    width: 146px;
+    height: 39px;
+    background: #A80506;
+    border-radius: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover{
+    background-color: #A80506;
+}
+
+/* Tutup hero section */
+
+/* Featured Brands */
+
+.featured-brands{
+    margin-top: 370px;
+    background: linear-gradient(175.29deg, #FEF0EF 68.79%, rgba(236, 227, 222, 0.87) 138.15%);
+    padding-top: 60px;
+    padding-bottom: 107px;
+}
+
+.featured-brands h5{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.Brands{
+    margin-top: 40px;
+}
+
+.Brands img{
+    transition: all 0.2s ease;
+}
+
+.Brands img:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: scale(1.1);
+}
+/* Tutup Featured Brands */
+
+/* Best seller */
+
+.Best-Seller{
+    margin-top: 66px;
+}
+
+.headbest{
+    margin-bottom: 38px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.product-brand{
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.product-name{
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.product-price{
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+
+.discount{
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration-line: line-through;
+
+    color: #8B8B8B;
+}
+
+
+.product-img:hover{
+    cursor: pointer;
+}
+
+.btn-view{
+    margin-top: 90px;
+    width: 232px;
+    height: 39px;
+    background: #A80506;
+    border-radius: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+
+/* tutup Best seller */
+
+/* kategori */
+.women{
+    margin-top: 60px;
+}
+
+.women img{
+    position: relative;
+}
+
+.btn-women{
+    top: 2545px;
+    margin-left: -530px;
+    position: absolute;
+    margin-top: -80px;
+    width: 232px;
+    height: 46px;
+    background: #A80506;
+    border-radius: 6px;
+
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.btn-men{
+    top: 3085px;
+    left: 920px;
+    position: absolute;
+    width: 232px;
+    height: 46px;
+    background: #A80506;
+    border-radius: 6px;
+
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+footer{
+    background: #FEF0EF;
+}
+
+.form-row{
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.footer-item{
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+
+}
+
+.footer-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer-subs{
+    margin-right: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+
+    color: #000000;
+
+}
+
+.subscribe{
+    margin-left: 60px;
+    width: 217px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #DFC1C1;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+
+    color: #817373;
+}
+
+.btn-subs{
+    margin-left: 150px;
+    width: 126px;
+    height: 30px;
+    background: #D3B0A6;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.copyright{
+    background: #D4B2A8;
+    height: 51px;
+}
+
+.copyright h5{
+    padding-top: 15px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+
+    color: #000000;
+
+}
+/* tutup footer */
